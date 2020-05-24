@@ -19,7 +19,7 @@ Feature: Registration form
 
 
   Scenario: Clear registration form
-      When initial values from firstname are cleared
+      When initial values from form are cleared
       Then the form fields are empty
 
 

@@ -32,7 +32,7 @@ def form_has_lastname(form, lastname):
     assert form.lastname_input_value() == lastname
 
 
-@when('initial values from firstname are cleared')
+@when('initial values from form are cleared')
 def clear_form(form):
     form.clear_form()
 
